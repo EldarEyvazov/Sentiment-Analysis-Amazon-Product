@@ -89,8 +89,8 @@ This dataset can be used for various tasks such as:
 
 ## 🛠️ Technologies Used
 - **Programming Language**: Python 🐍
-- **Libraries & Frameworks**: Pandas, NumPy, Scikit-Learn, NLTK, TensorFlow, etc.
-- **Tools**: Jupyter Notebook, Google Colab, GitHub
+- **Libraries & Frameworks**: Pandas, NumPy, Scikit-Learn, NLTK, TensorFlow, SpaCy
+
 
 
 ## 🚀 Implementation Steps
