@@ -98,14 +98,17 @@ This dataset can be used for various tasks such as:
 ---
 
 
+
+
 ## 🚀 Implementation Steps
 
 ### 1. **Data Preprocessing**
    - **Text Cleaning**: We cleaned the text by removing stopwords, punctuation, and converting everything to lowercase.
    - **Tokenization & Lemmatization**: The text was split into individual tokens (words), and each token was reduced to its base form using lemmatization.
    - **Feature Extraction**:
-     - **TF-IDF with Bigrams**: We used **TF-IDF** to convert text data into numerical features. **Bigrams** (pairs of consecutive words) were used to capture more context in the data, which is beneficial for understanding sentiment.
-     - **GloVe Embeddings**: We used **GloVe** word embeddings (50-dimensional vectors) with a **vocabulary size of 10,000 words**. GloVe allows the model to understand word meanings more efficiently in a low-dimensional space.
+     - **TF-IDF with Bigrams**: We used **TF-IDF** to convert text data into numerical features. **Bigrams** (pairs of consecutive words) were used to capture more context in the data, which is beneficial for understanding sentiment. Which is useful for classical Machine Learning algorithms, in our project we have implemented Logistic Regression.
+     - **GloVe Embeddings**: We used **GloVe** word embeddings (50-dimensional vectors) to represent words in a dense vector space. **GloVe (Global Vectors for Word Representation)** is a model for obtaining word vectors that captures semantic meaning by learning from global word co-occurrence statistics. It allows the model to understand words and their relationships in a low-dimensional space. We used a **vocabulary size of 10,000 words**. 
+     - More information about GloVe can be found here: [GloVe Website](https://nlp.stanford.edu/projects/glove/).
 
 ### 2. **Exploratory Data Analysis (EDA)**
    - **Sentiment Distribution**: We analyzed how the sentiment (positive, negative, neutral) is distributed across the dataset.
@@ -119,7 +122,7 @@ This dataset can be used for various tasks such as:
      - **LSTM + CNN Hybrid Architecture**: A hybrid model that combines the strengths of both LSTM and CNN to better capture sequential dependencies and important features.
    - **Performance Evaluation**: Models were evaluated based on **accuracy**, **F1-score**, and **CPU time** to ensure the models are not only accurate but also efficient for real-world applications.
 
----
+
 
 ## 🔒 License
 
