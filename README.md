@@ -48,7 +48,7 @@ Since the dataset is highly imbalanced, we primarily rely on **Precision, Recall
 
 
 ![Class Distribution after Oversampling](DIstribution_after_Oversampling.png)
-<p align="center"><b>Distribution of Classes after oversampling </b></p> look
+<p align="center"><b>Distribution of Classes after oversampling </b></p> 
 
 
 ---
