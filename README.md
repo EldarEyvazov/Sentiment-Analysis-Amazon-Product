@@ -37,7 +37,7 @@ Since the dataset is highly imbalanced, we primarily rely on **Precision, Recall
 - **Rating 5 (Positive)**: 183,588 samples
 
 ![Class Distribution by Rating](ClassDistribution.png)
-<p align="center"><b>Class Distribution</b></p>
+<p align="center"><b>Distribution of Ratings</b></p>
 
 
 
