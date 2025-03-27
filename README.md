@@ -36,7 +36,7 @@ Since the dataset is highly imbalanced, we primarily rely on **Precision, Recall
 - **Rating 4**: 158,315 samples  
 - **Rating 5 (Positive)**: 183,588 samples
 
-/Users/eldareyvazov/Desktop/ClassDistribution.png
+![Class Distribution by Rating](images/ClassDistribution.png)
 
 
 
