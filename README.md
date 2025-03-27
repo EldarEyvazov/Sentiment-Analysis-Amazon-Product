@@ -1,4 +1,4 @@
-# 📘 NLP Project: [Your Project Title]
+# 📘 NLP Project: Sentiment Analysis on Amazon Fine Food Dataset Reviews
 
 ## 📌 Project Overview
 This project focuses on **Natural Language Processing (NLP)** to analyze and extract meaningful insights from textual data. The study involves [briefly describe the main objective, e.g., sentiment analysis, text classification, chatbot development, etc.].
