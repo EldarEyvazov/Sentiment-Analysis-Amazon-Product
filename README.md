@@ -97,6 +97,30 @@ This dataset can be used for various tasks such as:
 
 ---
 
+
+## 🚀 Implementation Steps
+
+### 1. **Data Preprocessing**
+   - **Text Cleaning**: We cleaned the text by removing stopwords, punctuation, and converting everything to lowercase.
+   - **Tokenization & Lemmatization**: The text was split into individual tokens (words), and each token was reduced to its base form using lemmatization.
+   - **Feature Extraction**:
+     - **TF-IDF with Bigrams**: We used **TF-IDF** to convert text data into numerical features. **Bigrams** (pairs of consecutive words) were used to capture more context in the data, which is beneficial for understanding sentiment.
+     - **GloVe Embeddings**: We used **GloVe** word embeddings (50-dimensional vectors) with a **vocabulary size of 10,000 words**. GloVe allows the model to understand word meanings more efficiently in a low-dimensional space.
+
+### 2. **Exploratory Data Analysis (EDA)**
+   - **Sentiment Distribution**: We analyzed how the sentiment (positive, negative, neutral) is distributed across the dataset.
+   - **Statistical Insights**: We explored key statistics such as average review length and frequent words to better understand the nature of the dataset.
+
+### 3. **Model Training & Evaluation**
+   - **Applied Models on Both Original and Oversampled Datasets**:
+     - **CNN (Convolutional Neural Networks)**: Used to capture important features in the text and identify patterns that contribute to sentiment.
+     - **LSTM (Long Short-Term Memory)**: Employed to capture the sequential dependencies and long-term relationships in the text data.
+     - **Bi-directional LSTM**: A Bi-directional LSTM was used to process the text in both forward and backward directions, providing better context for sentiment prediction.
+     - **LSTM + CNN Hybrid Architecture**: A hybrid model that combines the strengths of both LSTM and CNN to better capture sequential dependencies and important features.
+   - **Performance Evaluation**: Models were evaluated based on **accuracy**, **F1-score**, and **CPU time** to ensure the models are not only accurate but also efficient for real-world applications.
+
+---
+
 ## 🔒 License
 
 - This dataset is provided by Kaggle under the terms of the [Kaggle Dataset License](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews).
@@ -108,30 +132,7 @@ This dataset can be used for various tasks such as:
 
 
 
-## 🚀 Implementation Steps
-1. **Data Preprocessing**
-   - Text cleaning (removal of stopwords, punctuation, etc.)
-   - Tokenization & Lemmatization
-   - Feature Engineering (TF-IDF, Word2Vec, etc.)
 
-2. **Exploratory Data Analysis (EDA)**
-   - Sentiment distribution analysis
-   - Word cloud visualizations
-   - Statistical insights from dataset
-
-3. **Model Training & Evaluation**
-   - Applied ML/DL models (Logistic Regression, LSTM, Transformer, etc.)
-   - Performance evaluation using accuracy, F1-score, etc.
-
-
-## 📊 Results & Findings
-- [Summarize key findings, accuracy results, best-performing model]
-- [Graphs/visuals summary if applicable]
-
-## 💡 Future Improvements
-- Enhance model performance with more data
-- Fine-tune hyperparameters for better accuracy
-- Deploy as a real-world application
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
