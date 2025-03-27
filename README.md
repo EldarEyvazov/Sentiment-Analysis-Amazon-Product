@@ -41,6 +41,11 @@ Since the dataset is highly imbalanced, we primarily rely on **Precision, Recall
 
 
 
+
+
+![Class Distribution](Classes.png)
+<p align="center"><b>Distribution of Classes/b></p>
+
 ---
 
 ## 📁 Files Included
