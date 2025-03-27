@@ -1,7 +1,15 @@
 # 📘 NLP Project: Sentiment Analysis on Amazon Fine Food Dataset Reviews
 
 ## 📌 Project Overview
-This project focuses on **Natural Language Processing (NLP)** to analyze and extract meaningful insights from textual data. The study involves [briefly describe the main objective, e.g., sentiment analysis, text classification, chatbot development, etc.].
+This project focuses on **Sentiment Analysis** using the **Amazon Fine Food Reviews Dataset**. Sentiment analysis is a crucial aspect of business intelligence, enabling companies to refine their strategies based on customer opinions. **NLP (Natural Language Processing)** is a fundamental part of AI, and sentiment analysis is one of its most well-known applications.
+
+The aim of this project is to classify user reviews into **three sentiment categories: Positive, Neutral, and Negative**. We explored various architectures, starting from **classical Machine Learning (ML) algorithms** and gradually increasing complexity by experimenting with **Deep Learning (DL) architectures**.
+
+One of the key challenges in this dataset is **class imbalance**, as the reviews are skewed towards the positive class. This imbalance can impact the model's ability to correctly classify Neutral and Negative sentiments. To address this, we implemented **two approaches**:
+1. **Testing complex deep learning architectures** while ensuring computational efficiency for real-world deployment.
+2. **Oversampling (Random Over-Sampling)** to balance the dataset and improve classification performance.
+
+Since the dataset is highly imbalanced, we primarily rely on **Precision, Recall, and F1-score** for evaluation, as accuracy alone is not informative in this scenario.
 
 ## 📊 Dataset
 - **Dataset Used**: Amazon Fine Food Reviews Dataset
